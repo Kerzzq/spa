@@ -8,3 +8,7 @@ export const router = createBrowserRouter([
   { path: "/page1", element: <Page1 /> },
   { path: "/page2", element: <Page2 /> },
 ]);
+
+export default function Router() {
+  return <RouterProvider router={router} />;
+}
